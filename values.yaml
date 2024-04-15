@@ -17,20 +17,6 @@ ingress:
     host: ''
     tlsSecretName: ''
 
-cartsdb:
-    image:
-        repo: mongo
-        tag: 4.4.0
-    resources:
-        requests:
-            cpu: 500m
-            memory: 512Mi
-        limits:
-            cpu: 500m
-            memory: 512Mi
-    persistentVolume:
-        storageClass: ''
-        size: 512Mi
 
 ordersdb:
     image:
