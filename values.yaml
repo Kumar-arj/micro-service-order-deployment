@@ -34,7 +34,7 @@ ordersdb:
 
 orders:
     image:
-        repo: kumararj/sock-shop-micro-services-cart
+        repo: kumararj/sock-shop-micro-services-order
         tag: latest
     containerPort: 80
     resources:
